@@ -9,12 +9,16 @@
 
 *{
     padding: 0.5rem;
-    border: 2px solid slategray;
+    border: 1px solid slategray;
 }
 
-body, html{
+html{ border: none;}
+
+body{
     border: none;
 }
+
+
 
 /*Image styles*/
 
@@ -22,4 +26,14 @@ body, html{
     background-image: url("img/bed.jpg");
     background-size: cover;
     min-height: 10rem;
+}
+
+/* Universal styles and utilities*/
+
+.padded { padding: 5%;}
+.padded-sm { padding: 1rem;}
+
+.bg-dark{
+    background-color: #192B37;
+    color: white;
 }
