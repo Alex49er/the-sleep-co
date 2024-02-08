@@ -7,17 +7,17 @@
 
 /* Temp styles */
 
-*{
+section{
     padding: 0.5rem;
     border: 1px solid slategray;
 }
 
-html{ border: none;}
+
 
 body{
-    border: none;
+    font-family: "catamaran", sans serif; 
+    color: #192B37;
 }
-
 
 
 /*Image styles*/
@@ -37,3 +37,9 @@ body{
     background-color: #192B37;
     color: white;
 }
+
+.text-left     { text-align: left;}
+
+.text-center   { text-align: center;}
+
+.text-right    { text-align: right;}
