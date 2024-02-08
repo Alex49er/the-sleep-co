@@ -38,8 +38,50 @@ body{
     color: white;
 }
 
+
+.tall-80 { min-height: 80vh;}
+.tall-90 { min-height: 90vh;}
+.tall-100 { min-height: 100vh;}
+
+/* Typography Styles */
+
+h2{
+    font-size: 2.5rem; 
+    line-height: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-weight: 200;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p:last-child{
+    margin-bottom: 0;
+}
+
+.featured-text{ color: #FFBE00;}
+.font-weight-light { font-weight: 200;}
+.font-weight-normal { font-weight: normal;}
+.font-weight-bold { font-weight: 800;}
+
 .text-left     { text-align: left;}
 
 .text-center   { text-align: center;}
 
 .text-right    { text-align: right;}
+
+
+/* Header styles*/
+header{
+    background-image: url("img/bed.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header h3{
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
