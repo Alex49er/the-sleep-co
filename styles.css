@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Temp styles */
+
+*{
+    padding: 0.5rem;
+    border: 2px solid slategray;
+}
+
+body, html{
+    border: none;
+}
+
+/*Image styles*/
+
+.bg-image{
+    background-image: url("img/bed.jpg");
+    background-size: cover;
+    min-height: 10rem;
+}
