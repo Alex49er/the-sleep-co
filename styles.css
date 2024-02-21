@@ -12,7 +12,7 @@
 .bg-image{
     background-image: url("img/bed.jpg");
     background-size: cover;
-    min-height: 10rem;
+    
 }
 
 .landcape{ padding-bottom: 65%;}
@@ -196,4 +196,81 @@ textarea:focus{
     appearance: none;
     border: 2px solid #FFBE00;
     color: inherit;
+}
+
+/* General CSS responsive styles */
+
+.show-xs,
+.show-sm,
+.show-md{
+    display: none;
+}
+
+/* MD Media Query 64em/1024px */
+
+@media(max-width: 64em){
+    body{padding: 0.5rem;}
+    .show-md{ display: block;}
+    .hide-md{ display: none;}
+
+    .md-tall-80{ min-height: 80vh;}
+}
+
+/* SM media query 48em/768px */
+
+@media(max-width: 48em){
+
+    html{ font-size: 14px;}
+    p{ font-size: 1.1;}
+
+    body{padding: 0.5rem;}
+    .show-sm{ display: block;}
+    .hide-sm{ display: none;}
+
+    .sm-text-center{ text-align: center;}
+    .sm-text-left{ text-align: left;}
+    .sm-text-right {text-align: right;}
+
+    .sm-padded{ padding: 5%;}
+    .sm-padded-1{ padding: 1rem;}
+    .sm-padded-05{ padding: 0.5 rem;}
+
+    .sm-padded-t-0{ padding-top: 0;}
+    .sm-padded-b-0{ padding-bottom: 0;}
+    .sm-margin-l-0{ margin-left: 0;}
+    .sm-margin-r-0{ margin-right: 0;}
+
+    .logo h2{ font-size: 2rem;}
+
+    header h3{ font-size: 11vw;}
+
+
+
+}
+
+/* XS media query 36em/576px */
+
+@media(max-width: 36em){
+
+        
+    body{ padding: 0.5rem;}
+    .show-xs{ display: block;}
+    .hide-xs{ display: none;}
+
+    h1{
+        font-size: 1.4rem;
+        line-height: 1.1;
+    }
+}
+
+/* XXS media query 25em */
+
+@media(max-width: 25em/400px){
+    html{font-size: 12px;}
+
+    [class*="grid-"] .xxs-stack{
+         display: block;
+         flex-basis: 100%;
+         max-width: 100%;
+    }
 }
