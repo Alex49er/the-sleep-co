@@ -19,6 +19,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
     <link rel="stylesheet" href="styles.css">
 
@@ -33,20 +36,35 @@
                 <a href="/index.html" class="logo">
                     <h2>The Sleep Co</h2>
                 </a>
-                </div>
-                <nav class="col-7_xs-12-middle text-right sm-text-center">
+            </div>
+                <nav class="col-7_xs-12-middle text-right sm-text-center hide-sm">
                     <a href="/index.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="products.html">Products</a>
                     <a href="contact.html">Contact Us</a>
 
                 </nav>
+
+                <div class="col-1 show-sm">
+                    <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                </div>
             
             </div>
+
+            <nav class="mobile-menu bg-featured padded">
+                <a href="/index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact Us</a>
+
+            </nav>
         
         <div class="col-12-middle">
-        <h3 class="font-weight-bold"><span class="featured-text">we're the </span>best</h3>
-        <h1 class="font-weight-light">the ultimate mattress solution</h1>
+        <h3 class="font-weight-bold" data-aos="fade-in" data-aos-duration="1000"><span class="featured-text">we're the </span>best</h3>
+        <h1 class="font-weight-light" data-aos-delay="500">the ultimate mattress solution</h1>
         </div>
     </header>
 
@@ -123,6 +141,21 @@
             <p><strong>Instagram:</strong> <a href="www.instagram.com/thesleepco">The Sleep Co.</a></p>
         </div>
     </footer>
+
+     <!-- JQUERY -->
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+     <!--AOS  -->
+ 
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+
+    <!-- JS -->
+    
+     <script src="/scripts.js"></script>
 
 </body>
 </html>
