@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="styles.css">
 
     
@@ -28,29 +31,44 @@
                     <!---------------- Header Banner ------------------------------------>
     <header class="padded grid text-center tall-100 md-tall-80">
         <div class="header-nav col-12-top grid">
-            <div class="col-5_sm-12-middle sm-padded-b-0">
+            <div class="col-5_sm-11-middle sm-padded-b-0">
                 <a href="/index.html" class="logo">
                     <h2>The Sleep Co</h2>
                 </a>
                 </div>
-                <nav class="col-7_xs-12-middle text-right sm-text-center">
+                <nav class="col-7_xs-12-middle text-right sm-text-center hide-sm">
                     <a href="/index.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="products.html">Products</a>
                     <a href="contact.html">Contact Us</a>
 
                 </nav>
+
+                <div class="col-1 show-sm">
+                    <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                </div>
             
             </div>
+
+            <nav class="mobile-menu">
+                <a href="/index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact Us</a>
+
+            </nav>
         
         <div class="col-12-middle">
-        <h3 class="font-weight-bold"><span class="featured-text">Sleep</span> like a baby</h3>
-        <h1 class="font-weight-light">the ultimate mattress solution</h1>
+        <h3 class="font-weight-bold " data-aos="fade-in" data-aos-duration="1000"><span class="featured-text">Sleep</span> like a baby</h3>
+        <h1 class="font-weight-light" data-aos="fade-up" data-aos-delay="500">the ultimate mattress solution</h1>
         </div>
     </header>
                     <!------------------------ Gallery ----------------------------------->
     <section class="grid">
-        <div class="padded col-6_xs-12-middle">
+        <div class="padded col-6_xs-12-middle" data-aos="fade-right">
             <h2>built to last a <span class="featured-text">lifetime</span></h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio laboriosam, atque perferendis, ipsam quas vero, architecto ducimus natus unde eum nam iure voluptatibus aspernatur consequuntur dolore numquam! Numquam, unde dolorem</p>
             
@@ -61,7 +79,7 @@
         <div class="bg-image bg-pug col-6_xs-12 tall-70">
                     <!--------------------- Background Image ----------------------------->
         </div>
-        <div class="padded col-6_xs-12-middle">
+        <div class="padded col-6_xs-12-middle" data-aos="fade-left">
             <h2>so <span class="featured-text">soft</span> you'll melt</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio laboriosam, atque perferendis, ipsam quas vero, architecto ducimus natus unde eum nam iure voluptatibus aspernatur consequuntur dolore numquam! Numquam, unde dolorem!</p>
         </div>
@@ -70,7 +88,7 @@
                     <!------------------------------ Features grid --------------------->
 
     <section class="padded grid bg-dark">
-        <div class="padded-sm col-12 text-center">
+        <div class="padded-sm col-12 text-center" data-aos="fade-in">
             <h2><span class="featured-text">features</span> you will love</h2>
         </div>
         <div class="padded-sm col-3_sm-6 xxs-stack">
@@ -129,5 +147,19 @@
             <p><strong>Instagram:</strong> <a href="www.instagram.com/thesleepco">The Sleep Co.</a></p>
         </div>
     </footer>
+
+
+    <!-- JQUERY -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--AOS  -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+<!-- JS -->
+    <script src="/scripts.js"></script>
 </body>
 </html>
